@@ -1,0 +1,36 @@
+* {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.loader,
+.loader-inner {
+    background-color: #FEB21A;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+}
+.loader-inner {
+    color: #000000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.5em;
+    animation: fadeInOut 2s infinite;
+}
